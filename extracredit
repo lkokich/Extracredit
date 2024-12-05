@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Welcome to Our Web Development Project!</title>
+    <title>Welcome to Our Website!</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -72,7 +72,7 @@
                     <div class="intro-text">
                         <span class="name">Hey there! We're Jack, Lucas, and Jacob</span>
                         <hr class="star-light">
-                        <span class="skills">Add your skills here. Eg: <br/> Web Developer - Graphic Artist</span>
+                        <span class="skills">Add your skills here. Eg: <br/> Business Management Information Systems Web Development Project</span>
                     </div>
                 </div>
             </div>
@@ -126,7 +126,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="/Users/lkokich10/Downloads/IMG_7257.JPG" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
