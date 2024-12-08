@@ -701,5 +701,73 @@ In conclusion, global internet connections have transformed the world into an in
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
+<section class="success" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Quiz</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-2">
+                <form id="quizForm">
+                    <h3>Question 1: What is Tableau used for?</h3>
+                    <label>
+                        <input type="radio" name="q1" value="b"> B. Data Visualization<br>
+                        <input type="radio" name="q1" value="a"> A. Programming<br>
+                        <input type="radio" name="q1" value="c"> C. Database Management<br>
+                        <input type="radio" name="q1" value="d"> D. Web Development<br>
+                    </label>
+
+                    <h3>Question 2: What is a primary concern for data security?</h3>
+                    <label>
+                        <input type="radio" name="q2" value="c"> C. Confidentiality<br>
+                        <input type="radio" name="q2" value="a"> A. Speed<br>
+                        <input type="radio" name="q2" value="b"> B. Availability<br>
+                        <input type="radio" name="q2" value="d"> D. Aesthetics<br>
+                    </label>
+
+                    <h3>Question 3: Which of the following is a key factor in internet connectivity?</h3>
+                    <label>
+                        <input type="radio" name="q3" value="a"> A. Bandwidth<br>
+                        <input type="radio" name="q3" value="b"> B. Display<br>
+                        <input type="radio" name="q3" value="c"> C. Power Supply<br>
+                        <input type="radio" name="q3" value="d"> D. Security<br>
+                    </label>
+                    <br><br>
+                    <button type="button" class="btn btn-primary" onclick="submitQuiz()">Submit</button>
+                </form>
+                <div id="result" style="display:none;">
+                    <h3>Your Score:</h3>
+                    <p id="score"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function submitQuiz() {
+        var score = 0;
+        var totalQuestions = 3;
+
+        // Get the selected answers for each question
+        var q1 = document.querySelector('input[name="q1"]:checked');
+        var q2 = document.querySelector('input[name="q2"]:checked');
+        var q3 = document.querySelector('input[name="q3"]:checked');
+
+        // Check answers
+        if (q1 && q1.value === "b") score++;
+        if (q2 && q2.value === "c") score++;
+        if (q3 && q3.value === "a") score++;
+
+        // Show the result
+        document.getElementById("quizForm").style.display = "none";
+        document.getElementById("result").style.display = "block";
+        document.getElementById("score").innerHTML = score + " out of " + totalQuestions;
+    }
+</script>
+
    
 
