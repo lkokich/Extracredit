@@ -168,7 +168,8 @@
 	One aspect of data security that particularly interests me is data encryption. It’s essential both when data is at rest and also when it’s moving around between people, or companies. It’s really interesting to me how encryption can make readable code completely unreadable unless you have the correct key for it. This seemingly simple trick helps prevent hackers from stealing data and being able to read it. Something I wonder about with encryption, however, is if it will be able to adapt with the times as fast as others are. I’m sure with the evolving nature of technology, it will be easier for hackers to steal and decrypt data. How then will companies and people be able to ensure their data is staying safe?
 	Another area inside data security I find interesting is the concept of access control. Another interesting area within data security is the concept of access control. In large organizations, different individuals or departments may require varying levels of access to sensitive information. Managing who can view, edit, or delete data is essential to preventing unauthorized actions. When researching this I came across the principle of least privilege. which suggests that users should only have access to the data necessary for them to perform their job functions. While this principle may seem straight forward, when its applied in a complex business environment, it can become challenging. For instance, how can access rights be effectively managed in organizations where employees frequently change roles or when new technologies like cloud computing introduce new vulnerabilities? Its ability to stay in control in a changing field is interesting. 
 	Probably the most relevant topic inside data security is simply privacy. When looking to see how it helps keeping everything private I found encryption, and also the General Data Protection Regulation in the European Union and similar regulations in other regions, organizations are under increasing pressure to protect not just corporate data, but personal data as well. It is good that the consequences of violating privacy laws can be sever, so now people won’t break them as often. 
-	Overall, while there are many interesting topics in BMIS, data security is a field that is most intriguing to me. As the digital landscape evolves, so too must the strategies employed to safeguard valuable information, making it an area of study that will remain relevant and dynamic for years to come.</p>
+	Overall, while there are many interesting topics in BMIS, data security is a field that is most intriguing to me. As the digital landscape evolves, so too must the strategies employed to safeguard valuable information, making it an area of study that will remain relevant and dynamic for years to come.
+</p>
                 </div>
                 <div class="col-lg-4">
                     <p>Write a short paragraph about your hobbies and interests.</p>
@@ -257,12 +258,12 @@
                             <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Soft Skills:
+                                    <strong><a Leadership, Cooperation and teamwork, Critical thinking</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <li>Techincal Skills:
+                                    <strong><a Knowledgeable in programming languages, data analysis through excel, networking>April 2014</a>
                                     </strong>
                                 </li>
                                 <li>Service:
